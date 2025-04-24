@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playwrite+RO:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap"
+    rel="stylesheet">
+  <style>
+    .row-reverse {
+      flex-direction: row-reverse;
+    }
+
+    .col {
+      position: relative;
+    }
+
+    .img_text_back {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 100%;
+    }
+
+    .img_text_back+p,
+    .img_text_back+h2,
+    .img_text_back+h1 {
+      position: relative;
+      z-index: 3;
+    }
+
+    h1 {
+      padding: 2rem 0 2rem;
+      font-size: 4rem;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    .text_note {
+      position: relative;
+    }
+
+    .text_note__text {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      padding: 8rem 10rem 6rem;
+    }
+
+    .wallpaper_corcho {
+      background-image: url(wallpaper_cream.jpg);
+    }
+
+    body {
+      padding-top: 2rem;
+      padding-bottom: 5rem;
+      font-family: "Merriweather", serif;
+    }
+  </style>
+</head>
+
+<body class="wallpaper_corcho">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="componentes.html">DEFINICIÓN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="secretos.html">7 SECRETOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="innovacion.html">INNOVACIÓN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="creatividad.html">CRITERIOS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <h1>CREATIVIDAD,<br>INNOVACIÓN Y<br>DISRUPCIÓN</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="fondo_foto.svg" alt="" class="img_text_back">
+      </div>
+      <div class="col text_note">
+        <div class="text_note__text">
+          <h2>CREATIVIDAD</h2>
+          <P>creatividad es la capacidad de generar ideas originales, novedosas y valiosas, así comode encontrar soluciones innovadoras a los problemas</P>
+        </div>
+      </div>
+    </div>
+    <div class="row row-reverse">
+      <div class="col">
+        <img src="fondo_foto.svg" alt="" class="img_text_back">
+      </div>
+      <div class="col">
+        <div class="text_note__text">
+          <h2>INNOVACIÓN</h2>
+          <P>La innovación tiene la capacidad de trasformar ideas y protocolos ya existentes teniendo como objetivo, mejorar y crear nuevos sistemas para cubrir nesecidades de forma más eficiente.</P>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col">
+        <h3>Sostenibilidad</h3>
+        <img src="fondo_foto.svg" alt="">
+      </div>
+      <div class="col">
+        <h3>Área comercial</h3>
+        <img src="fondo_foto.svg" alt="">
+      </div>
+      <div class="col">
+        <h3>Tecnología</h3>
+        <img src="fondo_foto.svg" alt="">
+      </div>
+    </div>
+    <div class="row row-reverse">
+      <div class="col">
+        <img src="fondo_foto.svg" alt="" class="img_text_back">
+      </div>
+      <div class="col">
+        <div class="text_note__text">
+          <h2>PENSAMIENTO<br>DISRUPTIVO</h2>
+          <p>Pensar " fuera de la caja " El pensamiento disruptivo consiste en dejar de hacer cosas tradicionales y arriesgarse a innovar y crear.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="componentes.html">DEFINICIÓN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="secretos.html">7 SECRETOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="innovacion.html">INNOVACIÓN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="creatividad.html">CRITERIOS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
